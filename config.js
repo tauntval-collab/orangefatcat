@@ -3,7 +3,7 @@ window.PORTFOLIO = {
   status: "Commissions open",
 
   contact: {
-    discordUsername: "orangefatcat",
+    discordUsername: "orangefatcat1",
     discordUrl: "",
     discordLabel: "DM me on Discord",
     robloxUrl: "",
