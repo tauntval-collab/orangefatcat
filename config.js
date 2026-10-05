@@ -4,8 +4,8 @@ window.PORTFOLIO = {
 
   contact: {
     discordUsername: "orangefatcat1",
-    discordUrl: "",
-    discordLabel: "DM me on Discord",
+    discordUrl: "https://discord.gg/gnKbgBVX3r",
+    discordLabel: "Join my studio Discord",
     robloxUrl: "",
     talentHubUrl: "",
     xUrl: "",
