@@ -74,7 +74,7 @@
       return figure;
     });
 
-    const allTags = ['All', ...new Set(items.flatMap((item) => item.tags))];
+    const allTags = ['All', ...new Set(items.map((item) => item.tags[0]))];
     allTags.forEach((tag, index) => {
       const chip = document.createElement('button');
       chip.type = 'button';
@@ -92,7 +92,6 @@
   }
 
   buildGallery(config.work, document.getElementById('grid'), document.getElementById('filters'));
-  buildGallery(config.effects || [], document.getElementById('fx-grid'), document.getElementById('fx-filters'));
 
   const contact = config.contact || {};
   const briefText = (config.brief || []).join('\n');
